@@ -46,7 +46,7 @@ The server should:
 
 The client should:
 
-1.	Obtain the name of the file to transfer from the command line using sys.argv. **(Implemented)**
+1. Obtain the name of the file to transfer from the command line using sys.argv. **(Implemented)**
 2. Obtain the size of the file in bytes by using the os.path module.(use `get_file_size()`)
 3. Convert the file size to an 8-byte string using big endian.
 4. Create a SHA256 object using the hashlib module, to calculate the sha256 hash of the file.
